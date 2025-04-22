@@ -12,3 +12,5 @@ export const routes: Routes = [
   {path: 'despachar', component: DespacharComponent},
   {path: 'detalledespacho', component: DetdespachoComponent},
 ];
+
+//{ path: '404', loadComponent: () => import('@shared/nofound/nofound.component').then(mod => mod.NofoundComponent)},
